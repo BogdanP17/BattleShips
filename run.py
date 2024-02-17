@@ -104,7 +104,7 @@ def battleship():
         
         turns += 1
 
-# Start the game
+
 battleship()
 
 
