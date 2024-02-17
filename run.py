@@ -1,3 +1,8 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+nums = []
+for i in range(3):
+    nums.append([])
+    for j in range(1,4):
+        nums[i].append(j)
+
+print("3x3 grid:")
+print(nums)
