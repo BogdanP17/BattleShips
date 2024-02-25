@@ -21,7 +21,6 @@
  - The hidden board is a 3x3 grid, and there are 3 ships placed randomly on it.
  - Each turn, you input your guesses for a coordinate on the board.
  - If you guess hits a ship, it will be marked with an 'X' on you're guesse board.
- - If your guess misses, it will be marked with a '-' on your guess board.
  - You have a limited number of turns to sink all the ships.
 
 
@@ -36,7 +35,7 @@
  ### Solved Bugs
  - On the function that check the input from the player i had one bug with the max numbers for input.
  - On the 3x3 board i started the row and colum numbers from 1 to 3 but in the code i check if the input form the player is >= 3.
- <img src="readmeimg\Bug Python.png">
+ <img src="readmeimg\BugPython.png">
 
  ## Technology
   - Python to create the code.
@@ -48,10 +47,20 @@
 
   ### GitHub
    
-   <ul><li>We have deployd the Battleship to GuiHub.</li>
-      <li>On the GitHub page head to settings.</li>
-      <li>From drop-down menu head to Master Branch.</li>
-      <li>After Master Branch was selected it will provide the link to game.</ul>
-
+   - We have deployd the Battleship to GuiHub.
       
- ### Heroku
+
+   ### Heroku
+   - We have deployd the python code to run in Heroku.
+
+
+### Flow Chart
+
+ - We have also created a flow chart for this code.
+ <img src=readmeimg\FlowChart.png>
+
+ ### Future futures
+ - I will like to add more ships on the game.
+ - Extend the board.
+ - Missed location to be marked as '-'.
+ 

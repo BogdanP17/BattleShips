@@ -36,7 +36,7 @@ def get_guess():
         try:
             row = int(guess[0]) 
             col = int(guess[1]) 
-            if row < 0 or row > 3 or col < 0 or col > 3:
+            if row <= 0 or row > 3 or col <= 0 or col > 3:
                 raise ValueError
         except ValueError:
             print(f"Invalid input. Please enter numbers as integers")
