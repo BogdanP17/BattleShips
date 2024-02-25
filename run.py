@@ -26,7 +26,7 @@ def place_ship(HIDDEN_BOARD):
 def get_guess():
     """
     This function is responsible for taking input
-    from the player for thei guesses
+    from the player for they guesses
     """
    
     while True:
