@@ -64,3 +64,6 @@
  - Extend the board.
  - Missed location to be marked as '-'.
  
+
+ ### Visual Studio Code
+ - In Visual Studio Code we have write the code for the game.
