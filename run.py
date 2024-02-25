@@ -28,9 +28,8 @@ def get_guess():
     This function is responsible for taking input
     from the player for they guesses
     """
-   
     while True:
-        guess = input("Enter your (row column): ").split()
+        guess = input("Enter your (row column)\n: ").split()
         if len(guess) != 2:
             print("Invalid input. Please enter a row and a column separated by space")
             continue
@@ -57,7 +56,6 @@ def battleship():
     This function is the main function that orchestrates the
     gameplay of the Battleship game
     """
-    
     print("Start play BattleShip!")
     print("Ships placed!")
     place_ship(GUESS_BOARD)

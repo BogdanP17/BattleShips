@@ -40,6 +40,7 @@
 
  ## Technology
   - Python to create the code.
+  - Heroku to test the code.
 
 
  ## Deployment 
@@ -51,3 +52,6 @@
       <li>On the GitHub page head to settings.</li>
       <li>From drop-down menu head to Master Branch.</li>
       <li>After Master Branch was selected it will provide the link to game.</ul>
+
+      
+ ### Heroku
