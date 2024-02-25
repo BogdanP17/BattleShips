@@ -35,7 +35,7 @@
  ### Solved Bugs
  - On the function that check the input from the player i had one bug with the max numbers for input.
  - On the 3x3 board i started the row and colum numbers from 1 to 3 but in the code i check if the input form the player is >= 3.
- <img src="readmeimg\BugPython.png">
+ <img src="readmeimg\bugpython.png">
 
  ## Technology
   - Python to create the code.
@@ -57,7 +57,7 @@
 ### Flow Chart
 
  - We have also created a flow chart for this code.
- <img src=readmeimg\FlowChart.png>
+ <img src=readmeimg\flowchart.png>
 
  ### Future futures
  - I will like to add more ships on the game.
@@ -67,3 +67,7 @@
 
  ### Visual Studio Code
  - In Visual Studio Code we have write the code for the game.
+
+ ### Overview of the game 
+ <img src=readmeimg\overview.png>
+
