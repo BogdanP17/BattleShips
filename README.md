@@ -24,12 +24,22 @@
  - If your guess misses, it will be marked with a '-' on your guess board.
  - You have a limited number of turns to sink all the ships.
 
+
+ ## Validator Testing 
+  <ul>
+   <li>Python</li>
+    <ul><li>Using PEP8 no issues have been found</li></ul></ul>
+
+    
  ## Bugs 
  - The code dosen't have any unsolved bugs.
  ### Solved Bugs
  - On the function that check the input from the player i had one bug with the max numbers for input.
  - On the 3x3 board i started the row and colum numbers from 1 to 3 but in the code i check if the input form the player is >= 3.
  <img src="readmeimg\Bug Python.png">
+
+ ## Technology
+  - Python to create the code.
 
 
  ## Deployment 
