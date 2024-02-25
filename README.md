@@ -29,4 +29,15 @@
  ### Solved Bugs
  - On the function that check the input from the player i had one bug with the max numbers for input.
  - On the 3x3 board i started the row and colum numbers from 1 to 3 but in the code i check if the input form the player is >= 3.
- - <img src="readmeimg\Bug Python.png">
+ <img src="readmeimg\Bug Python.png">
+
+
+ ## Deployment 
+
+
+  ### GitHub
+   
+   <ul><li>We have deployd the Battleship to GuiHub.</li>
+      <li>On the GitHub page head to settings.</li>
+      <li>From drop-down menu head to Master Branch.</li>
+      <li>After Master Branch was selected it will provide the link to game.</ul>
