@@ -11,6 +11,11 @@
  - Visual representation of both hidden board(with ships) and the guess board(tracking hits and misses).
  - Limited number of turns to guess all ships.
 
+ ### Future futures
+  - I will like to add more ships on the game.
+  - Extend the board.
+  - Missed location to be marked as '-'.
+
 
  ## How to play:
  1. Run the battleship.py file in a Python enviroment.
@@ -47,11 +52,21 @@
 
   ### GitHub
    
-   - We have deployd the Battleship to GuiHub.
+   - We have deployd the Battleship to GitHub.
       
 
    ### Heroku
-   - We have deployd the python code to run in Heroku.
+
+
+   - This project was deployed using Code Institute mock terminal for Heroku.
+   <ul><li>Steps for deployment:</li>
+      <ul><li>Fork or clone this repository</li>
+      <li>Create a new Heroku app</li>
+      <li>Set the buildbacks to Python and NodeJS in that order</li>
+      <li>Link the Heroku app to the repository</li>
+      <li>Click on Deploy</li></ul>
+
+   
 
 
 ### Flow Chart
@@ -59,10 +74,6 @@
  - We have also created a flow chart for this code.
  <img src=readmeimg\flowchart.png>
 
- ### Future futures
- - I will like to add more ships on the game.
- - Extend the board.
- - Missed location to be marked as '-'.
  
 
  ### Visual Studio Code
@@ -70,4 +81,8 @@
 
  ### Overview of the game 
  <img src=readmeimg\overview.png>
+
+
+### Credits
+- Code Institute for the deployment terminal
 
