@@ -5,10 +5,16 @@ HIDDEN_BOARD = [['0' for x in range(3)] for x in range(3)]
 GUESS_BOARD = [['0' for x in range(3)] for x in range(3)]
 
 def print_board(board):
+    """
+    Function to print the battleship board
+    """
     for row in board:
         print(" ".join(row))
 
 def place_ship(HIDDEN_BOARD):
+    """
+    Funtion to place the ships on the board
+    """
     for i in range(3):
         row = random.randint(0, len(HIDDEN_BOARD) - 1)
         col = random.randint(0, len(HIDDEN_BOARD[0]) - 1)
@@ -18,6 +24,11 @@ def place_ship(HIDDEN_BOARD):
         HIDDEN_BOARD[row][col] = 'S'
 
 def get_guess():
+    """
+    This function is responsible for taking input
+    from the player for thei guesses
+    """
+   
     while True:
         guess = input("Enter your (row column): ").split()
         if len(guess) != 2:
@@ -35,9 +46,18 @@ def get_guess():
     
     
 def check_win(GUESS_BOARD):
+    """
+    Function that check if the input form the 
+    player hit the ships
+    """
     all(all(cell != 'S' for cell in row) for row in GUESS_BOARD)
 
 def battleship():
+    """
+    This function is the main function that orchestrates the
+    gameplay of the Battleship game
+    """
+    
     print("Start play BattleShip!")
     print("Ships placed!")
     place_ship(GUESS_BOARD)
